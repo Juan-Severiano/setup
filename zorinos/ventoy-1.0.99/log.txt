@@ -1,0 +1,1206 @@
+[2024/06/30 21:11:29] 
+[2024/06/30 21:11:29] =========================================================
+[2024/06/30 21:11:29] =========================================================
+[2024/06/30 21:11:29] =============== VentoyGui x86_64 ===============
+[2024/06/30 21:11:29] =========================================================
+[2024/06/30 21:11:29] =========================================================
+[2024/06/30 21:11:29] log file is <log.txt>
+[2024/06/30 21:11:29] pid:17583 ppid:1389 uid:1000 euid:1000
+[2024/06/30 21:11:29] adjust dir:0  current path:/home/juansev/Downloads/ventoy-1.0.99
+[2024/06/30 21:11:29] =========RAW ARGS BEGIN===========
+[2024/06/30 21:11:29] argv[0]=</home/juansev/Downloads/ventoy-1.0.99/VentoyGUI.x86_64>
+[2024/06/30 21:11:29] =========RAW ARGS END===========
+[2024/06/30 21:11:29] uname -m <x86_64> 64bit
+[2024/06/30 21:11:29] Build bit is 64 (x86_64)
+[2024/06/30 21:11:29] Now detect the GUI type ...
+[2024/06/30 21:11:29] 1261 libs found in cache format 1
+[2024/06/30 21:11:29] LIB:<libgtk-4.so.1>
+[2024/06/30 21:11:29] LIB:<libgtk-3.so.0>
+[2024/06/30 21:11:29] LIB:<libgtk-x11-2.0.so.0>
+[2024/06/30 21:11:29] ldconfig lib flags 0x7
+[2024/06/30 21:11:29] lib flags GLADE2:[NO] GTK2:[YES] GTK3:[YES] GTK4:[YES] QT4:[NO] QT5:[NO] QT6:[NO]
+[2024/06/30 21:11:29] This is gtk3 X environment.
+[2024/06/30 21:11:29] exe = /home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3
+[2024/06/30 21:11:29] execute permission check success.
+[2024/06/30 21:11:29] EUID check failed.
+[2024/06/30 21:11:29] try restart self by pkexec ...
+[2024/06/30 21:11:29] Find pkexec at </usr/bin/pkexec>
+[2024/06/30 21:11:29] create environment param 51
+[2024/06/30 21:11:29] =========PKEXEC ARGS BEGIN===========
+[2024/06/30 21:11:29] argv[0]=</usr/bin/pkexec>
+[2024/06/30 21:11:29] argv[1]=</home/juansev/Downloads/ventoy-1.0.99/VentoyGUI.x86_64>
+[2024/06/30 21:11:29] argv[2]=<_vtoy_env_str_=USER=juansev
+LC_TIME=pt_BR.UTF-8
+XDG_SESSION_TYPE=wayland
+SHLVL=0
+HOME=/home/juansev
+OLDPWD=/home/juansev
+DESKTOP_SESSION=zorin
+GNOME_SHELL_SESSION_MODE=zorin
+GTK_MODULES=gail:atk-bridge
+LC_MONETARY=pt_BR.UTF-8
+MANAGERPID=1389
+SYSTEMD_EXEC_PID=1457
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=511c280445a0eb1a8690dfbd66a956f5
+DBUS_STARTER_BUS_TYPE=session
+GIO_LAUNCHED_DESKTOP_FILE_PID=17583
+WAYLAND_DISPLAY=wayland-0
+LOGNAME=juansev
+_=/usr/bin/gnome-session
+JOURNAL_STREAM=8:33054
+XDG_SESSION_CLASS=user
+USERNAME=juansev
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+SESSION_MANAGER=local/zorin-dev:@/tmp/.ICE-unix/1457,unix/zorin-dev:/tmp/.ICE-unix/1457
+INVOCATION_ID=e9ebc60253e546ea8182743ad1ca79a4
+XDG_RUNTIME_DIR=/run/user/1000
+LC_ADDRESS=pt_BR.UTF-8
+XDG_MENU_PREFIX=gnome-
+GNOME_SETUP_DISPLAY=:1
+DISPLAY=:0
+LC_TELEPHONE=pt_BR.UTF-8
+LANG=en_US.UTF-8
+XDG_CURRENT_DESKTOP=zorin:GNOME
+XMODIFIERS=@im=ibus
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.8BUHR2
+XDG_SESSION_DESKTOP=zorin
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_LAUNCHER=gnome-keyring
+SHELL=/bin/zsh
+LC_NAME=pt_BR.UTF-8
+INSIDE_NAUTILUS_PYTHON=
+QT_ACCESSIBILITY=1
+GDMSESSION=zorin
+LC_MEASUREMENT=pt_BR.UTF-8
+LC_IDENTIFICATION=pt_BR.UTF-8
+QT_IM_MODULE=ibus
+PWD=/home/juansev/Downloads/ventoy-1.0.99
+XDG_DATA_DIRS=/home/juansev/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=511c280445a0eb1a8690dfbd66a956f5
+LC_NUMERIC=pt_BR.UTF-8
+LC_PAPER=pt_BR.UTF-8
+>
+[2024/06/30 21:11:29] argv[3]=<_vtoy_gui_path_=/home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/06/30 21:11:29] =========PKEXEC ARGS END===========
+[2024/06/30 21:11:32] 
+[2024/06/30 21:11:32] =========================================================
+[2024/06/30 21:11:32] =========================================================
+[2024/06/30 21:11:32] =============== VentoyGui x86_64 ===============
+[2024/06/30 21:11:32] =========================================================
+[2024/06/30 21:11:32] =========================================================
+[2024/06/30 21:11:32] log file is <log.txt>
+[2024/06/30 21:11:32] pid:17583 ppid:1389 uid:0 euid:0
+[2024/06/30 21:11:32] adjust dir:0  current path:/home/juansev/Downloads/ventoy-1.0.99
+[2024/06/30 21:11:32] =========RAW ARGS BEGIN===========
+[2024/06/30 21:11:32] argv[0]=</home/juansev/Downloads/ventoy-1.0.99/VentoyGUI.x86_64>
+[2024/06/30 21:11:32] argv[1]=<_vtoy_env_str_=USER=juansev
+LC_TIME=pt_BR.UTF-8
+XDG_SESSION_TYPE=wayland
+SHLVL=0
+HOME=/home/juansev
+OLDPWD=/home/juansev
+DESKTOP_SESSION=zorin
+GNOME_SHELL_SESSION_MODE=zorin
+GTK_MODULES=gail:atk-bridge
+LC_MONETARY=pt_BR.UTF-8
+MANAGERPID=1389
+SYSTEMD_EXEC_PID=1457
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=511c280445a0eb1a8690dfbd66a956f5
+DBUS_STARTER_BUS_TYPE=session
+GIO_LAUNCHED_DESKTOP_FILE_PID=17583
+WAYLAND_DISPLAY=wayland-0
+LOGNAME=juansev
+_=/usr/bin/gnome-session
+JOURNAL_STREAM=8:33054
+XDG_SESSION_CLASS=user
+USERNAME=juansev
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+SESSION_MANAGER=local/zorin-dev:@/tmp/.ICE-unix/1457,unix/zorin-dev:/tmp/.ICE-unix/1457
+INVOCATION_ID=e9ebc60253e546ea8182743ad1ca79a4
+XDG_RUNTIME_DIR=/run/user/1000
+LC_ADDRESS=pt_BR.UTF-8
+XDG_MENU_PREFIX=gnome-
+GNOME_SETUP_DISPLAY=:1
+DISPLAY=:0
+LC_TELEPHONE=pt_BR.UTF-8
+LANG=en_US.UTF-8
+XDG_CURRENT_DESKTOP=zorin:GNOME
+XMODIFIERS=@im=ibus
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.8BUHR2
+XDG_SESSION_DESKTOP=zorin
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_LAUNCHER=gnome-keyring
+SHELL=/bin/zsh
+LC_NAME=pt_BR.UTF-8
+INSIDE_NAUTILUS_PYTHON=
+QT_ACCESSIBILITY=1
+GDMSESSION=zorin
+LC_MEASUREMENT=pt_BR.UTF-8
+LC_IDENTIFICATION=pt_BR.UTF-8
+QT_IM_MODULE=ibus
+PWD=/home/juansev/Downloads/ventoy-1.0.99
+XDG_DATA_DIRS=/home/juansev/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=511c280445a0eb1a8690dfbd66a956f5
+LC_NUMERIC=pt_BR.UTF-8
+LC_PAPER=pt_BR.UTF-8
+>
+[2024/06/30 21:11:32] argv[2]=<_vtoy_gui_path_=/home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/06/30 21:11:32] =========RAW ARGS END===========
+[2024/06/30 21:11:32] recover environ 51 51
+[2024/06/30 21:11:32] recover success, argc=1 evecve </home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/06/30 21:11:32] =========EXECVE ARGS BEGIN===========
+[2024/06/30 21:11:32] argv[0]=</home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/06/30 21:11:32] =========EXECVE ARGS END===========
+[2024/06/30 21:11:32] 
+[2024/06/30 21:11:32] =========================================================
+[2024/06/30 21:11:32] =========================================================
+[2024/06/30 21:11:32] =============== VentoyGui x86_64 ===============
+[2024/06/30 21:11:32] =========================================================
+[2024/06/30 21:11:32] =========================================================
+[2024/06/30 21:11:32] log file is <log.txt>
+[2024/06/30 21:11:32] pid:17599 ppid:1389 uid:1000 euid:1000
+[2024/06/30 21:11:32] adjust dir:0  current path:/home/juansev/Downloads/ventoy-1.0.99
+[2024/06/30 21:11:32] =========RAW ARGS BEGIN===========
+[2024/06/30 21:11:32] argv[0]=</home/juansev/Downloads/ventoy-1.0.99/VentoyGUI.x86_64>
+[2024/06/30 21:11:32] =========RAW ARGS END===========
+[2024/06/30 21:11:32] uname -m <x86_64> 64bit
+[2024/06/30 21:11:32] Build bit is 64 (x86_64)
+[2024/06/30 21:11:32] Now detect the GUI type ...
+[2024/06/30 21:11:32] 1261 libs found in cache format 1
+[2024/06/30 21:11:32] LIB:<libgtk-4.so.1>
+[2024/06/30 21:11:32] LIB:<libgtk-3.so.0>
+[2024/06/30 21:11:32] LIB:<libgtk-x11-2.0.so.0>
+[2024/06/30 21:11:32] ldconfig lib flags 0x7
+[2024/06/30 21:11:32] lib flags GLADE2:[NO] GTK2:[YES] GTK3:[YES] GTK4:[YES] QT4:[NO] QT5:[NO] QT6:[NO]
+[2024/06/30 21:11:32] This is gtk3 X environment.
+[2024/06/30 21:11:32] exe = /home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3
+[2024/06/30 21:11:32] execute permission check success.
+[2024/06/30 21:11:32] EUID check failed.
+[2024/06/30 21:11:32] try restart self by pkexec ...
+[2024/06/30 21:11:32] Find pkexec at </usr/bin/pkexec>
+[2024/06/30 21:11:32] create environment param 51
+[2024/06/30 21:11:32] =========PKEXEC ARGS BEGIN===========
+[2024/06/30 21:11:32] argv[0]=</usr/bin/pkexec>
+[2024/06/30 21:11:32] argv[1]=</home/juansev/Downloads/ventoy-1.0.99/VentoyGUI.x86_64>
+[2024/06/30 21:11:32] argv[2]=<_vtoy_env_str_=USER=juansev
+LC_TIME=pt_BR.UTF-8
+XDG_SESSION_TYPE=wayland
+SHLVL=0
+HOME=/home/juansev
+OLDPWD=/home/juansev
+DESKTOP_SESSION=zorin
+GNOME_SHELL_SESSION_MODE=zorin
+GTK_MODULES=gail:atk-bridge
+LC_MONETARY=pt_BR.UTF-8
+MANAGERPID=1389
+SYSTEMD_EXEC_PID=1457
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=511c280445a0eb1a8690dfbd66a956f5
+DBUS_STARTER_BUS_TYPE=session
+GIO_LAUNCHED_DESKTOP_FILE_PID=17599
+WAYLAND_DISPLAY=wayland-0
+LOGNAME=juansev
+_=/usr/bin/gnome-session
+JOURNAL_STREAM=8:33054
+XDG_SESSION_CLASS=user
+USERNAME=juansev
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+SESSION_MANAGER=local/zorin-dev:@/tmp/.ICE-unix/1457,unix/zorin-dev:/tmp/.ICE-unix/1457
+INVOCATION_ID=e9ebc60253e546ea8182743ad1ca79a4
+XDG_RUNTIME_DIR=/run/user/1000
+LC_ADDRESS=pt_BR.UTF-8
+XDG_MENU_PREFIX=gnome-
+GNOME_SETUP_DISPLAY=:1
+DISPLAY=:0
+LC_TELEPHONE=pt_BR.UTF-8
+LANG=en_US.UTF-8
+XDG_CURRENT_DESKTOP=zorin:GNOME
+XMODIFIERS=@im=ibus
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.8BUHR2
+XDG_SESSION_DESKTOP=zorin
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_LAUNCHER=gnome-keyring
+SHELL=/bin/zsh
+LC_NAME=pt_BR.UTF-8
+INSIDE_NAUTILUS_PYTHON=
+QT_ACCESSIBILITY=1
+GDMSESSION=zorin
+LC_MEASUREMENT=pt_BR.UTF-8
+LC_IDENTIFICATION=pt_BR.UTF-8
+QT_IM_MODULE=ibus
+PWD=/home/juansev/Downloads/ventoy-1.0.99
+XDG_DATA_DIRS=/home/juansev/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=511c280445a0eb1a8690dfbd66a956f5
+LC_NUMERIC=pt_BR.UTF-8
+LC_PAPER=pt_BR.UTF-8
+>
+[2024/06/30 21:11:32] argv[3]=<_vtoy_gui_path_=/home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/06/30 21:11:32] =========PKEXEC ARGS END===========
+[2024/06/30 21:11:32] ================================================
+[2024/06/30 21:11:32] ===== Ventoy2Disk 1.0.99 powered by GTK3.x =====
+[2024/06/30 21:11:32] ================================================
+[2024/06/30 21:11:32] log file is <log.txt> lastsize:10587
+[2024/06/30 21:11:32] ini file is <./Ventoy2Disk.ini>
+[2024/06/30 21:11:32] ventoy_disk_enumerate_all
+[2024/06/30 21:11:32] get disk info nvme0n1
+[2024/06/30 21:11:32] is 4k native disk <nvme0n1> <0>
+[2024/06/30 21:11:32] get disk size from sysfs for nvme0n1
+[2024/06/30 21:11:32] /sys/block/nvme0n1/device/vendor not exist 
+[2024/06/30 21:11:32] ventoy_get_vtoy_data /dev/nvme0n1
+[2024/06/30 21:11:32] Invalid efi part2 name <>
+[2024/06/30 21:11:32] disk:</dev/nvme0n1 259:0> model:< SSSTC CL1-4D256 (nvme)> size:256060514304 (256 GB)
+[2024/06/30 21:11:32] /dev/nvme0n1 NO Ventoy detected
+[2024/06/30 21:11:32] get disk info sda
+[2024/06/30 21:11:32] is 4k native disk <sda> <0>
+[2024/06/30 21:11:32] get disk size from sysfs for sda
+[2024/06/30 21:11:32] ventoy_get_vtoy_data /dev/sda
+[2024/06/30 21:11:32] Not valid ventoy partition layout [2048 15238496] [0 0]
+[2024/06/30 21:11:32] disk:</dev/sda 8:0> model:<Kingston DataTraveler 108 (USB)> size:7803174912 (8 GB)
+[2024/06/30 21:11:32] /dev/sda NO Ventoy detected
+[2024/06/30 21:11:32] ============= DISK DUMP ============
+[2024/06/30 21:11:32] /dev/sda [8 GB] Kingston DataTraveler 108 (USB)	Ventoy: NA
+[2024/06/30 21:11:32] /dev/nvme0n1 [256 GB]  SSSTC CL1-4D256 (nvme)	Ventoy: NA
+[2024/06/30 21:11:32] on_init_window ...
+[2024/06/30 21:11:32] load_languages ...
+[2024/06/30 21:11:32] current language <English (English)>
+[2024/06/30 21:11:32] fill_dev_list total disk: 2 showall:0
+[2024/06/30 21:11:32] combox count:1, active:sda id:0
+[2024/06/30 21:11:35] 
+[2024/06/30 21:11:35] =========================================================
+[2024/06/30 21:11:35] =========================================================
+[2024/06/30 21:11:35] =============== VentoyGui x86_64 ===============
+[2024/06/30 21:11:35] =========================================================
+[2024/06/30 21:11:35] =========================================================
+[2024/06/30 21:11:35] log file is <log.txt>
+[2024/06/30 21:11:35] pid:17599 ppid:1389 uid:0 euid:0
+[2024/06/30 21:11:35] adjust dir:0  current path:/home/juansev/Downloads/ventoy-1.0.99
+[2024/06/30 21:11:35] =========RAW ARGS BEGIN===========
+[2024/06/30 21:11:35] argv[0]=</home/juansev/Downloads/ventoy-1.0.99/VentoyGUI.x86_64>
+[2024/06/30 21:11:35] argv[1]=<_vtoy_env_str_=USER=juansev
+LC_TIME=pt_BR.UTF-8
+XDG_SESSION_TYPE=wayland
+SHLVL=0
+HOME=/home/juansev
+OLDPWD=/home/juansev
+DESKTOP_SESSION=zorin
+GNOME_SHELL_SESSION_MODE=zorin
+GTK_MODULES=gail:atk-bridge
+LC_MONETARY=pt_BR.UTF-8
+MANAGERPID=1389
+SYSTEMD_EXEC_PID=1457
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=511c280445a0eb1a8690dfbd66a956f5
+DBUS_STARTER_BUS_TYPE=session
+GIO_LAUNCHED_DESKTOP_FILE_PID=17599
+WAYLAND_DISPLAY=wayland-0
+LOGNAME=juansev
+_=/usr/bin/gnome-session
+JOURNAL_STREAM=8:33054
+XDG_SESSION_CLASS=user
+USERNAME=juansev
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+SESSION_MANAGER=local/zorin-dev:@/tmp/.ICE-unix/1457,unix/zorin-dev:/tmp/.ICE-unix/1457
+INVOCATION_ID=e9ebc60253e546ea8182743ad1ca79a4
+XDG_RUNTIME_DIR=/run/user/1000
+LC_ADDRESS=pt_BR.UTF-8
+XDG_MENU_PREFIX=gnome-
+GNOME_SETUP_DISPLAY=:1
+DISPLAY=:0
+LC_TELEPHONE=pt_BR.UTF-8
+LANG=en_US.UTF-8
+XDG_CURRENT_DESKTOP=zorin:GNOME
+XMODIFIERS=@im=ibus
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.8BUHR2
+XDG_SESSION_DESKTOP=zorin
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_LAUNCHER=gnome-keyring
+SHELL=/bin/zsh
+LC_NAME=pt_BR.UTF-8
+INSIDE_NAUTILUS_PYTHON=
+QT_ACCESSIBILITY=1
+GDMSESSION=zorin
+LC_MEASUREMENT=pt_BR.UTF-8
+LC_IDENTIFICATION=pt_BR.UTF-8
+QT_IM_MODULE=ibus
+PWD=/home/juansev/Downloads/ventoy-1.0.99
+XDG_DATA_DIRS=/home/juansev/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=511c280445a0eb1a8690dfbd66a956f5
+LC_NUMERIC=pt_BR.UTF-8
+LC_PAPER=pt_BR.UTF-8
+>
+[2024/06/30 21:11:35] argv[2]=<_vtoy_gui_path_=/home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/06/30 21:11:35] =========RAW ARGS END===========
+[2024/06/30 21:11:35] recover environ 51 51
+[2024/06/30 21:11:35] recover success, argc=1 evecve </home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/06/30 21:11:35] =========EXECVE ARGS BEGIN===========
+[2024/06/30 21:11:35] argv[0]=</home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/06/30 21:11:35] =========EXECVE ARGS END===========
+[2024/06/30 21:11:35] ================================================
+[2024/06/30 21:11:35] ===== Ventoy2Disk 1.0.99 powered by GTK3.x =====
+[2024/06/30 21:11:35] ================================================
+[2024/06/30 21:11:35] log file is <log.txt> lastsize:15378
+[2024/06/30 21:11:35] ini file is <./Ventoy2Disk.ini>
+[2024/06/30 21:11:35] ventoy_disk_enumerate_all
+[2024/06/30 21:11:35] get disk info nvme0n1
+[2024/06/30 21:11:35] is 4k native disk <nvme0n1> <0>
+[2024/06/30 21:11:35] get disk size from sysfs for nvme0n1
+[2024/06/30 21:11:35] /sys/block/nvme0n1/device/vendor not exist 
+[2024/06/30 21:11:35] ventoy_get_vtoy_data /dev/nvme0n1
+[2024/06/30 21:11:35] Invalid efi part2 name <>
+[2024/06/30 21:11:35] disk:</dev/nvme0n1 259:0> model:< SSSTC CL1-4D256 (nvme)> size:256060514304 (256 GB)
+[2024/06/30 21:11:35] /dev/nvme0n1 NO Ventoy detected
+[2024/06/30 21:11:35] get disk info sda
+[2024/06/30 21:11:35] is 4k native disk <sda> <0>
+[2024/06/30 21:11:35] get disk size from sysfs for sda
+[2024/06/30 21:11:35] ventoy_get_vtoy_data /dev/sda
+[2024/06/30 21:11:35] Not valid ventoy partition layout [2048 15238496] [0 0]
+[2024/06/30 21:11:35] disk:</dev/sda 8:0> model:<Kingston DataTraveler 108 (USB)> size:7803174912 (8 GB)
+[2024/06/30 21:11:35] /dev/sda NO Ventoy detected
+[2024/06/30 21:11:35] ============= DISK DUMP ============
+[2024/06/30 21:11:35] /dev/sda [8 GB] Kingston DataTraveler 108 (USB)	Ventoy: NA
+[2024/06/30 21:11:35] /dev/nvme0n1 [256 GB]  SSSTC CL1-4D256 (nvme)	Ventoy: NA
+[2024/06/30 21:11:36] on_init_window ...
+[2024/06/30 21:11:36] load_languages ...
+[2024/06/30 21:11:36] current language <English (English)>
+[2024/06/30 21:11:36] fill_dev_list total disk: 2 showall:0
+[2024/06/30 21:11:36] combox count:1, active:sda id:0
+[2024/06/30 21:11:38] on_exit_window ...
+[2024/06/30 21:11:38] ######## Ventoy2Disk GTK 1.0.99 exit ########
+[2024/06/30 21:11:47] install_thread ...
+[2024/06/30 21:11:47] ==================================================================================
+[2024/06/30 21:11:47] ===== ventoy install /dev/sda style:MBR secureboot:1 align4K:1 reserve:0 =========
+[2024/06/30 21:11:47] ==================================================================================
+[2024/06/30 21:11:47] /dev/sda mounted </dev/sda1 /media/juansev/UBUNTU\04024_0 ntfs3 rw,nosuid,nodev,relatime,uid=1000,gid=1000,windows_names,iocharset=utf8 0 0
+>
+[2024/06/30 21:11:47] disk is mounted, now try to unmount it ...
+[2024/06/30 21:11:47] umount </dev/sda> </media/juansev/UBUNTU 24_0> [ success ]
+[2024/06/30 21:11:47] disk is not mounted now, we can do the install ...
+[2024/06/30 21:11:47] start install thread Kingston DataTraveler 108 (USB) ...
+[2024/06/30 21:11:47] func handler install <{ "result" : "success" }>
+[2024/06/30 21:11:47] set percent 1
+[2024/06/30 21:11:47] ventoy_install_thread run ...
+[2024/06/30 21:11:47] check disk sda
+[2024/06/30 21:11:47] disk is not mounted now, we can do continue ...
+[2024/06/30 21:11:47] ventoy_clean_disk fd:7 size:7803174912
+[2024/06/30 21:11:47] write disk at off:0 writelen:65536 datalen:65536
+[2024/06/30 21:11:47] write disk at off:7803109376 writelen:65536 datalen:65536
+[2024/06/30 21:11:47] set percent 4
+[2024/06/30 21:11:47] set percent 4
+[2024/06/30 21:11:47] set percent 4
+[2024/06/30 21:11:47] set percent 4
+[2024/06/30 21:11:47] set percent 4
+[2024/06/30 21:11:47] set percent 4
+[2024/06/30 21:11:47] set percent 4
+[2024/06/30 21:11:47] set percent 4
+[2024/06/30 21:11:47] set percent 4
+[2024/06/30 21:11:48] read core.img.xz rc:0 len:455192
+[2024/06/30 21:11:48] set percent 6
+[2024/06/30 21:11:48] ventoy_unxz_stg1_img len:455192 rc:0
+[2024/06/30 21:11:48] read disk.img.xz rc:0 len:13475864
+[2024/06/30 21:11:48] set percent 9
+[2024/06/30 21:11:48] set percent 16
+[2024/06/30 21:11:48] set percent 17
+[2024/06/30 21:11:48] set percent 22
+[2024/06/30 21:11:48] set percent 30
+[2024/06/30 21:11:48] set percent 35
+[2024/06/30 21:11:48] set percent 40
+[2024/06/30 21:11:48] set percent 45
+[2024/06/30 21:11:48] set percent 50
+[2024/06/30 21:11:48] ventoy_unxz_efipart_img len:13475864 rc:0 unxzlen:33554432
+[2024/06/30 21:11:48] Fill MBR part table
+[2024/06/30 21:11:48] Disk signature: 0x13b02b36
+[2024/06/30 21:11:48] no need to align with 4KB
+[2024/06/30 21:11:48] ReservedSector: 0
+[2024/06/30 21:11:48] Part1StartSector:2048 Part1SectorCount:15172992 Part2StartSector:15175040
+[2024/06/30 21:11:48] Formatting part1 exFAT /dev/sda ...
+[0124/06/30 21:11:48] Creating... 
+[2024/06/30 21:11:48] set percent 61
+[2024/06/30 21:11:48] set percent 61
+[2024/06/30 21:11:48] set percent 61
+[2024/06/30 21:11:48] set percent 61
+[2024/06/30 21:11:48] set percent 61
+[2024/06/30 21:11:48] set percent 61
+[2024/06/30 21:11:48] set percent 61
+[2024/06/30 21:11:48] set percent 61
+[2024/06/30 21:11:48] set percent 61
+[2024/06/30 21:11:49] set percent 61
+[2024/06/30 21:11:49] set percent 61
+[2024/06/30 21:11:49] set percent 61
+[2024/06/30 21:11:49] set percent 61
+[2024/06/30 21:11:49] set percent 61
+[0124/06/30 21:11:49] Flushing... 
+[2024/06/30 21:11:49] set percent 61
+[2024/06/30 21:11:49] set percent 61
+[2024/06/30 21:11:49] Formatting part2 EFI ...
+[2024/06/30 21:11:49] Formatting part2 EFI offset:7769620480 ...
+[2024/06/30 21:11:49] VentoyProcSecureBoot 1 ...
+[2024/06/30 21:11:49] Secure boot is enabled ...
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/06/30 21:11:49] Writing legacy grub ...
+[2024/06/30 21:11:49] Write MBR stage1 ...
+[2024/06/30 21:11:49] lseek offset:512(512) writelen:1048064(1048064)
+[2024/06/30 21:11:49] fsync data1...
+[2024/06/30 21:11:49] set percent 80
+[2024/06/30 21:11:49] set percent 80
+[2024/06/30 21:11:49] set percent 80
+[2024/06/30 21:11:49] set percent 80
+[2024/06/30 21:11:49] set percent 80
+[2024/06/30 21:11:49] set percent 80
+[2024/06/30 21:11:49] set percent 80
+[2024/06/30 21:11:49] set percent 80
+[2024/06/30 21:11:49] set percent 80
+[2024/06/30 21:11:49] set percent 80
+[2024/06/30 21:11:49] set percent 80
+[2024/06/30 21:11:49] set percent 80
+[2024/06/30 21:11:49] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:50] set percent 80
+[2024/06/30 21:11:51] set percent 80
+[2024/06/30 21:11:51] set percent 80
+[2024/06/30 21:11:51] set percent 80
+[2024/06/30 21:11:51] set percent 80
+[2024/06/30 21:11:51] set percent 80
+[2024/06/30 21:11:51] set percent 80
+[2024/06/30 21:11:51] set percent 80
+[2024/06/30 21:11:51] Checking part2 efi data /dev/sda ...
+[2024/06/30 21:11:51] set percent 82
+[2024/06/30 21:11:51] set percent 82
+[2024/06/30 21:11:51] set percent 82
+[2024/06/30 21:11:51] set percent 82
+[2024/06/30 21:11:51] set percent 82
+[2024/06/30 21:11:51] set percent 82
+[2024/06/30 21:11:51] set percent 82
+[2024/06/30 21:11:51] set percent 83
+[2024/06/30 21:11:51] set percent 83
+[2024/06/30 21:11:51] set percent 83
+[2024/06/30 21:11:51] set percent 83
+[2024/06/30 21:11:51] set percent 85
+[2024/06/30 21:11:51] set percent 85
+[2024/06/30 21:11:52] set percent 85
+[2024/06/30 21:11:52] set percent 85
+[2024/06/30 21:11:52] set percent 87
+[2024/06/30 21:11:52] set percent 87
+[2024/06/30 21:11:52] set percent 87
+[2024/06/30 21:11:52] set percent 87
+[2024/06/30 21:11:52] set percent 87
+[2024/06/30 21:11:52] set percent 88
+[2024/06/30 21:11:52] set percent 88
+[2024/06/30 21:11:52] set percent 88
+[2024/06/30 21:11:52] set percent 88
+[2024/06/30 21:11:52] set percent 90
+[2024/06/30 21:11:52] set percent 90
+[2024/06/30 21:11:52] set percent 90
+[2024/06/30 21:11:52] set percent 90
+[2024/06/30 21:11:52] set percent 91
+[2024/06/30 21:11:52] set percent 91
+[2024/06/30 21:11:52] set percent 91
+[2024/06/30 21:11:52] set percent 91
+[2024/06/30 21:11:53] set percent 93
+[2024/06/30 21:11:53] set percent 93
+[2024/06/30 21:11:53] efi part data check success
+[2024/06/30 21:11:53] Writting Partition Table style:0...
+[2024/06/30 21:11:53] set percent 96
+[2024/06/30 21:11:53] Writting MBR Partition Table 0 512
+[2024/06/30 21:11:53] fsync data2...
+[2024/06/30 21:11:53] ====================================
+[2024/06/30 21:11:53] ====== ventoy install success ======
+[2024/06/30 21:11:53] ====================================
+[2024/06/30 21:11:53] set percent 100
+[2024/06/30 21:11:53] ventoy_disk_enumerate_all
+[2024/06/30 21:11:53] get disk info nvme0n1
+[2024/06/30 21:11:53] is 4k native disk <nvme0n1> <0>
+[2024/06/30 21:11:53] get disk size from sysfs for nvme0n1
+[2024/06/30 21:11:53] /sys/block/nvme0n1/device/vendor not exist 
+[2024/06/30 21:11:53] ventoy_get_vtoy_data /dev/nvme0n1
+[2024/06/30 21:11:53] Invalid efi part2 name <>
+[2024/06/30 21:11:53] disk:</dev/nvme0n1 259:0> model:< SSSTC CL1-4D256 (nvme)> size:256060514304 (256 GB)
+[2024/06/30 21:11:53] /dev/nvme0n1 NO Ventoy detected
+[2024/06/30 21:11:53] get disk info sda
+[2024/06/30 21:11:53] is 4k native disk <sda> <0>
+[2024/06/30 21:11:53] get disk size from sysfs for sda
+[2024/06/30 21:11:53] ventoy_get_vtoy_data /dev/sda
+[2024/06/30 21:11:53] ventoy partition layout check OK: [2048 15172992] [15175040 65536]
+[2024/06/30 21:11:53] now check secure boot for /dev/sda ...
+[2024/06/30 21:11:53] /EFI/BOOT/grubx64_real.efi find, secure boot in enabled
+[2024/06/30 21:11:53] disk:</dev/sda 8:0> model:<Kingston DataTraveler 108 (USB)> size:7803174912 (8 GB)
+[2024/06/30 21:11:53] /dev/sda Ventoy:<1.0.99> MBR secureboot:1 preserve:0
+[2024/06/30 21:14:16] set percent 0
+[2024/06/30 21:14:16] fill_dev_list total disk: 2 showall:0
+[2024/06/30 21:14:16] combox count:1, active:sda id:0
+[2024/06/30 21:14:21] on_exit_window ...
+[2024/06/30 21:14:21] ######## Ventoy2Disk GTK 1.0.99 exit ########
+[2024/06/30 21:17:32] 
+[2024/06/30 21:17:32] =========================================================
+[2024/06/30 21:17:32] =========================================================
+[2024/06/30 21:17:32] =============== VentoyGui x86_64 ===============
+[2024/06/30 21:17:32] =========================================================
+[2024/06/30 21:17:32] =========================================================
+[2024/06/30 21:17:32] log file is <log.txt>
+[2024/06/30 21:17:32] pid:17995 ppid:1389 uid:1000 euid:1000
+[2024/06/30 21:17:32] adjust dir:0  current path:/home/juansev/Downloads/ventoy-1.0.99
+[2024/06/30 21:17:32] =========RAW ARGS BEGIN===========
+[2024/06/30 21:17:32] argv[0]=</home/juansev/Downloads/ventoy-1.0.99/VentoyGUI.x86_64>
+[2024/06/30 21:17:32] =========RAW ARGS END===========
+[2024/06/30 21:17:32] uname -m <x86_64> 64bit
+[2024/06/30 21:17:32] Build bit is 64 (x86_64)
+[2024/06/30 21:17:32] Now detect the GUI type ...
+[2024/06/30 21:17:32] 1261 libs found in cache format 1
+[2024/06/30 21:17:32] LIB:<libgtk-4.so.1>
+[2024/06/30 21:17:32] LIB:<libgtk-3.so.0>
+[2024/06/30 21:17:32] LIB:<libgtk-x11-2.0.so.0>
+[2024/06/30 21:17:32] ldconfig lib flags 0x7
+[2024/06/30 21:17:32] lib flags GLADE2:[NO] GTK2:[YES] GTK3:[YES] GTK4:[YES] QT4:[NO] QT5:[NO] QT6:[NO]
+[2024/06/30 21:17:32] This is gtk3 X environment.
+[2024/06/30 21:17:32] exe = /home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3
+[2024/06/30 21:17:32] execute permission check success.
+[2024/06/30 21:17:32] EUID check failed.
+[2024/06/30 21:17:32] try restart self by pkexec ...
+[2024/06/30 21:17:32] Find pkexec at </usr/bin/pkexec>
+[2024/06/30 21:17:32] create environment param 51
+[2024/06/30 21:17:32] =========PKEXEC ARGS BEGIN===========
+[2024/06/30 21:17:32] argv[0]=</usr/bin/pkexec>
+[2024/06/30 21:17:32] argv[1]=</home/juansev/Downloads/ventoy-1.0.99/VentoyGUI.x86_64>
+[2024/06/30 21:17:32] argv[2]=<_vtoy_env_str_=USER=juansev
+LC_TIME=pt_BR.UTF-8
+XDG_SESSION_TYPE=wayland
+SHLVL=0
+HOME=/home/juansev
+OLDPWD=/home/juansev
+DESKTOP_SESSION=zorin
+GNOME_SHELL_SESSION_MODE=zorin
+GTK_MODULES=gail:atk-bridge
+LC_MONETARY=pt_BR.UTF-8
+MANAGERPID=1389
+SYSTEMD_EXEC_PID=1457
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=511c280445a0eb1a8690dfbd66a956f5
+DBUS_STARTER_BUS_TYPE=session
+GIO_LAUNCHED_DESKTOP_FILE_PID=17995
+WAYLAND_DISPLAY=wayland-0
+LOGNAME=juansev
+_=/usr/bin/gnome-session
+JOURNAL_STREAM=8:33054
+XDG_SESSION_CLASS=user
+USERNAME=juansev
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+SESSION_MANAGER=local/zorin-dev:@/tmp/.ICE-unix/1457,unix/zorin-dev:/tmp/.ICE-unix/1457
+INVOCATION_ID=e9ebc60253e546ea8182743ad1ca79a4
+XDG_RUNTIME_DIR=/run/user/1000
+LC_ADDRESS=pt_BR.UTF-8
+XDG_MENU_PREFIX=gnome-
+GNOME_SETUP_DISPLAY=:1
+DISPLAY=:0
+LC_TELEPHONE=pt_BR.UTF-8
+LANG=en_US.UTF-8
+XDG_CURRENT_DESKTOP=zorin:GNOME
+XMODIFIERS=@im=ibus
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.8BUHR2
+XDG_SESSION_DESKTOP=zorin
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_LAUNCHER=gnome-keyring
+SHELL=/bin/zsh
+LC_NAME=pt_BR.UTF-8
+INSIDE_NAUTILUS_PYTHON=
+QT_ACCESSIBILITY=1
+GDMSESSION=zorin
+LC_MEASUREMENT=pt_BR.UTF-8
+LC_IDENTIFICATION=pt_BR.UTF-8
+QT_IM_MODULE=ibus
+PWD=/home/juansev/Downloads/ventoy-1.0.99
+XDG_DATA_DIRS=/home/juansev/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=511c280445a0eb1a8690dfbd66a956f5
+LC_NUMERIC=pt_BR.UTF-8
+LC_PAPER=pt_BR.UTF-8
+>
+[2024/06/30 21:17:32] argv[3]=<_vtoy_gui_path_=/home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/06/30 21:17:32] =========PKEXEC ARGS END===========
+[2024/06/30 21:17:36] 
+[2024/06/30 21:17:36] =========================================================
+[2024/06/30 21:17:36] =========================================================
+[2024/06/30 21:17:36] =============== VentoyGui x86_64 ===============
+[2024/06/30 21:17:36] =========================================================
+[2024/06/30 21:17:36] =========================================================
+[2024/06/30 21:17:36] log file is <log.txt>
+[2024/06/30 21:17:36] pid:17995 ppid:1389 uid:0 euid:0
+[2024/06/30 21:17:36] adjust dir:0  current path:/home/juansev/Downloads/ventoy-1.0.99
+[2024/06/30 21:17:36] =========RAW ARGS BEGIN===========
+[2024/06/30 21:17:36] argv[0]=</home/juansev/Downloads/ventoy-1.0.99/VentoyGUI.x86_64>
+[2024/06/30 21:17:36] argv[1]=<_vtoy_env_str_=USER=juansev
+LC_TIME=pt_BR.UTF-8
+XDG_SESSION_TYPE=wayland
+SHLVL=0
+HOME=/home/juansev
+OLDPWD=/home/juansev
+DESKTOP_SESSION=zorin
+GNOME_SHELL_SESSION_MODE=zorin
+GTK_MODULES=gail:atk-bridge
+LC_MONETARY=pt_BR.UTF-8
+MANAGERPID=1389
+SYSTEMD_EXEC_PID=1457
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=511c280445a0eb1a8690dfbd66a956f5
+DBUS_STARTER_BUS_TYPE=session
+GIO_LAUNCHED_DESKTOP_FILE_PID=17995
+WAYLAND_DISPLAY=wayland-0
+LOGNAME=juansev
+_=/usr/bin/gnome-session
+JOURNAL_STREAM=8:33054
+XDG_SESSION_CLASS=user
+USERNAME=juansev
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+SESSION_MANAGER=local/zorin-dev:@/tmp/.ICE-unix/1457,unix/zorin-dev:/tmp/.ICE-unix/1457
+INVOCATION_ID=e9ebc60253e546ea8182743ad1ca79a4
+XDG_RUNTIME_DIR=/run/user/1000
+LC_ADDRESS=pt_BR.UTF-8
+XDG_MENU_PREFIX=gnome-
+GNOME_SETUP_DISPLAY=:1
+DISPLAY=:0
+LC_TELEPHONE=pt_BR.UTF-8
+LANG=en_US.UTF-8
+XDG_CURRENT_DESKTOP=zorin:GNOME
+XMODIFIERS=@im=ibus
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.8BUHR2
+XDG_SESSION_DESKTOP=zorin
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_LAUNCHER=gnome-keyring
+SHELL=/bin/zsh
+LC_NAME=pt_BR.UTF-8
+INSIDE_NAUTILUS_PYTHON=
+QT_ACCESSIBILITY=1
+GDMSESSION=zorin
+LC_MEASUREMENT=pt_BR.UTF-8
+LC_IDENTIFICATION=pt_BR.UTF-8
+QT_IM_MODULE=ibus
+PWD=/home/juansev/Downloads/ventoy-1.0.99
+XDG_DATA_DIRS=/home/juansev/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=511c280445a0eb1a8690dfbd66a956f5
+LC_NUMERIC=pt_BR.UTF-8
+LC_PAPER=pt_BR.UTF-8
+>
+[2024/06/30 21:17:36] argv[2]=<_vtoy_gui_path_=/home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/06/30 21:17:36] =========RAW ARGS END===========
+[2024/06/30 21:17:36] recover environ 51 51
+[2024/06/30 21:17:36] recover success, argc=1 evecve </home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/06/30 21:17:36] =========EXECVE ARGS BEGIN===========
+[2024/06/30 21:17:36] argv[0]=</home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/06/30 21:17:36] =========EXECVE ARGS END===========
+[2024/06/30 21:17:36] ================================================
+[2024/06/30 21:17:36] ===== Ventoy2Disk 1.0.99 powered by GTK3.x =====
+[2024/06/30 21:17:36] ================================================
+[2024/06/30 21:17:36] log file is <log.txt> lastsize:34809
+[2024/06/30 21:17:36] ini file is <./Ventoy2Disk.ini>
+[2024/06/30 21:17:36] ventoy_disk_enumerate_all
+[2024/06/30 21:17:36] get disk info nvme0n1
+[2024/06/30 21:17:36] is 4k native disk <nvme0n1> <0>
+[2024/06/30 21:17:36] get disk size from sysfs for nvme0n1
+[2024/06/30 21:17:36] /sys/block/nvme0n1/device/vendor not exist 
+[2024/06/30 21:17:36] ventoy_get_vtoy_data /dev/nvme0n1
+[2024/06/30 21:17:36] Invalid efi part2 name <>
+[2024/06/30 21:17:36] disk:</dev/nvme0n1 259:0> model:< SSSTC CL1-4D256 (nvme)> size:256060514304 (256 GB)
+[2024/06/30 21:17:36] /dev/nvme0n1 NO Ventoy detected
+[2024/06/30 21:17:36] get disk info sda
+[2024/06/30 21:17:36] is 4k native disk <sda> <0>
+[2024/06/30 21:17:36] get disk size from sysfs for sda
+[2024/06/30 21:17:36] ventoy_get_vtoy_data /dev/sda
+[2024/06/30 21:17:36] disk /dev/sda is too small 0
+[2024/06/30 21:17:36] disk:</dev/sda 8:0> model:<Kingston DataTraveler 108 (USB)> size:0 (0 GB)
+[2024/06/30 21:17:36] /dev/sda NO Ventoy detected
+[2024/06/30 21:17:36] ============= DISK DUMP ============
+[2024/06/30 21:17:36] /dev/sda [0 GB] Kingston DataTraveler 108 (USB)	Ventoy: NA
+[2024/06/30 21:17:36] /dev/nvme0n1 [256 GB]  SSSTC CL1-4D256 (nvme)	Ventoy: NA
+[2024/06/30 21:17:36] on_init_window ...
+[2024/06/30 21:17:36] load_languages ...
+[2024/06/30 21:17:36] current language <English (English)>
+[2024/06/30 21:17:36] fill_dev_list total disk: 2 showall:0
+[2024/06/30 21:17:36] combox count:1, active:sda id:0
+[2024/06/30 21:17:43] ventoy_disk_enumerate_all
+[2024/06/30 21:17:43] get disk info nvme0n1
+[2024/06/30 21:17:43] is 4k native disk <nvme0n1> <0>
+[2024/06/30 21:17:43] get disk size from sysfs for nvme0n1
+[2024/06/30 21:17:43] /sys/block/nvme0n1/device/vendor not exist 
+[2024/06/30 21:17:43] ventoy_get_vtoy_data /dev/nvme0n1
+[2024/06/30 21:17:43] Invalid efi part2 name <>
+[2024/06/30 21:17:43] disk:</dev/nvme0n1 259:0> model:< SSSTC CL1-4D256 (nvme)> size:256060514304 (256 GB)
+[2024/06/30 21:17:43] /dev/nvme0n1 NO Ventoy detected
+[2024/06/30 21:17:43] get disk info sda
+[2024/06/30 21:17:43] is 4k native disk <sda> <0>
+[2024/06/30 21:17:43] get disk size from sysfs for sda
+[2024/06/30 21:17:43] ventoy_get_vtoy_data /dev/sda
+[2024/06/30 21:17:43] disk /dev/sda is too small 0
+[2024/06/30 21:17:43] disk:</dev/sda 8:0> model:<Kingston DataTraveler 108 (USB)> size:0 (0 GB)
+[2024/06/30 21:17:43] /dev/sda NO Ventoy detected
+[2024/06/30 21:17:43] fill_dev_list total disk: 2 showall:0
+[2024/06/30 21:17:43] combox count:1, active:sda id:0
+[2024/06/30 21:17:44] ventoy_disk_enumerate_all
+[2024/06/30 21:17:44] get disk info nvme0n1
+[2024/06/30 21:17:44] is 4k native disk <nvme0n1> <0>
+[2024/06/30 21:17:44] get disk size from sysfs for nvme0n1
+[2024/06/30 21:17:44] /sys/block/nvme0n1/device/vendor not exist 
+[2024/06/30 21:17:44] ventoy_get_vtoy_data /dev/nvme0n1
+[2024/06/30 21:17:44] Invalid efi part2 name <>
+[2024/06/30 21:17:44] disk:</dev/nvme0n1 259:0> model:< SSSTC CL1-4D256 (nvme)> size:256060514304 (256 GB)
+[2024/06/30 21:17:44] /dev/nvme0n1 NO Ventoy detected
+[2024/06/30 21:17:44] get disk info sda
+[2024/06/30 21:17:44] is 4k native disk <sda> <0>
+[2024/06/30 21:17:44] get disk size from sysfs for sda
+[2024/06/30 21:17:44] ventoy_get_vtoy_data /dev/sda
+[2024/06/30 21:17:44] disk /dev/sda is too small 0
+[2024/06/30 21:17:44] disk:</dev/sda 8:0> model:<Kingston DataTraveler 108 (USB)> size:0 (0 GB)
+[2024/06/30 21:17:44] /dev/sda NO Ventoy detected
+[2024/06/30 21:17:44] fill_dev_list total disk: 2 showall:0
+[2024/06/30 21:17:44] combox count:1, active:sda id:0
+[2024/06/30 21:17:49] install_thread ...
+[2024/06/30 21:17:49] reserve space 0 is too big for disk /sys/block/sda 0
+[2024/06/30 21:17:49] func handler install <{ "result" : "reserve_invalid" }>
+[2024/06/30 21:17:50] set percent 0
+[2024/06/30 21:17:50] fill_dev_list total disk: 2 showall:0
+[2024/06/30 21:17:50] combox count:1, active:sda id:0
+[2024/06/30 21:17:52] on_exit_window ...
+[2024/06/30 21:17:52] ######## Ventoy2Disk GTK 1.0.99 exit ########
+[2024/07/03 10:04:31] 
+[2024/07/03 10:04:31] =========================================================
+[2024/07/03 10:04:31] =========================================================
+[2024/07/03 10:04:31] =============== VentoyGui x86_64 ===============
+[2024/07/03 10:04:31] =========================================================
+[2024/07/03 10:04:31] =========================================================
+[2024/07/03 10:04:31] log file is <log.txt>
+[2024/07/03 10:04:31] pid:7339 ppid:1554 uid:1000 euid:1000
+[2024/07/03 10:04:31] adjust dir:0  current path:/home/juansev/Downloads/ventoy-1.0.99
+[2024/07/03 10:04:31] =========RAW ARGS BEGIN===========
+[2024/07/03 10:04:31] argv[0]=</home/juansev/Downloads/ventoy-1.0.99/VentoyGUI.x86_64>
+[2024/07/03 10:04:31] =========RAW ARGS END===========
+[2024/07/03 10:04:31] uname -m <x86_64> 64bit
+[2024/07/03 10:04:31] Build bit is 64 (x86_64)
+[2024/07/03 10:04:31] Now detect the GUI type ...
+[2024/07/03 10:04:31] 1261 libs found in cache format 1
+[2024/07/03 10:04:31] LIB:<libgtk-4.so.1>
+[2024/07/03 10:04:31] LIB:<libgtk-3.so.0>
+[2024/07/03 10:04:31] LIB:<libgtk-x11-2.0.so.0>
+[2024/07/03 10:04:31] ldconfig lib flags 0x7
+[2024/07/03 10:04:31] lib flags GLADE2:[NO] GTK2:[YES] GTK3:[YES] GTK4:[YES] QT4:[NO] QT5:[NO] QT6:[NO]
+[2024/07/03 10:04:31] This is gtk3 X environment.
+[2024/07/03 10:04:31] exe = /home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3
+[2024/07/03 10:04:31] execute permission check success.
+[2024/07/03 10:04:31] EUID check failed.
+[2024/07/03 10:04:31] try restart self by pkexec ...
+[2024/07/03 10:04:31] Find pkexec at </usr/bin/pkexec>
+[2024/07/03 10:04:31] create environment param 51
+[2024/07/03 10:04:31] =========PKEXEC ARGS BEGIN===========
+[2024/07/03 10:04:31] argv[0]=</usr/bin/pkexec>
+[2024/07/03 10:04:31] argv[1]=</home/juansev/Downloads/ventoy-1.0.99/VentoyGUI.x86_64>
+[2024/07/03 10:04:31] argv[2]=<_vtoy_env_str_=USER=juansev
+LC_TIME=pt_BR.UTF-8
+XDG_SESSION_TYPE=wayland
+SHLVL=0
+HOME=/home/juansev
+OLDPWD=/home/juansev
+DESKTOP_SESSION=zorin
+GNOME_SHELL_SESSION_MODE=zorin
+GTK_MODULES=gail:atk-bridge
+LC_MONETARY=pt_BR.UTF-8
+MANAGERPID=1554
+SYSTEMD_EXEC_PID=1622
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=014698e6bb296442d320084966ae2504
+DBUS_STARTER_BUS_TYPE=session
+GIO_LAUNCHED_DESKTOP_FILE_PID=7339
+WAYLAND_DISPLAY=wayland-0
+LOGNAME=juansev
+_=/usr/bin/gnome-session
+JOURNAL_STREAM=8:31451
+XDG_SESSION_CLASS=user
+USERNAME=juansev
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+SESSION_MANAGER=local/zorin-dev:@/tmp/.ICE-unix/1622,unix/zorin-dev:/tmp/.ICE-unix/1622
+INVOCATION_ID=7ff5dced5601462ab33cec5a38fcb588
+XDG_RUNTIME_DIR=/run/user/1000
+LC_ADDRESS=pt_BR.UTF-8
+XDG_MENU_PREFIX=gnome-
+GNOME_SETUP_DISPLAY=:1
+DISPLAY=:0
+LC_TELEPHONE=pt_BR.UTF-8
+LANG=en_US.UTF-8
+XDG_CURRENT_DESKTOP=zorin:GNOME
+XMODIFIERS=@im=ibus
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.B1JER2
+XDG_SESSION_DESKTOP=zorin
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_LAUNCHER=gnome-keyring
+SHELL=/bin/zsh
+LC_NAME=pt_BR.UTF-8
+INSIDE_NAUTILUS_PYTHON=
+QT_ACCESSIBILITY=1
+GDMSESSION=zorin
+LC_MEASUREMENT=pt_BR.UTF-8
+LC_IDENTIFICATION=pt_BR.UTF-8
+QT_IM_MODULE=ibus
+PWD=/home/juansev/Downloads/ventoy-1.0.99
+XDG_DATA_DIRS=/home/juansev/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=014698e6bb296442d320084966ae2504
+LC_NUMERIC=pt_BR.UTF-8
+LC_PAPER=pt_BR.UTF-8
+>
+[2024/07/03 10:04:31] argv[3]=<_vtoy_gui_path_=/home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/07/03 10:04:31] =========PKEXEC ARGS END===========
+[2024/07/03 10:04:34] 
+[2024/07/03 10:04:34] =========================================================
+[2024/07/03 10:04:34] =========================================================
+[2024/07/03 10:04:34] =============== VentoyGui x86_64 ===============
+[2024/07/03 10:04:34] =========================================================
+[2024/07/03 10:04:34] =========================================================
+[2024/07/03 10:04:34] log file is <log.txt>
+[2024/07/03 10:04:34] pid:7339 ppid:1554 uid:0 euid:0
+[2024/07/03 10:04:34] adjust dir:0  current path:/home/juansev/Downloads/ventoy-1.0.99
+[2024/07/03 10:04:34] =========RAW ARGS BEGIN===========
+[2024/07/03 10:04:34] argv[0]=</home/juansev/Downloads/ventoy-1.0.99/VentoyGUI.x86_64>
+[2024/07/03 10:04:34] argv[1]=<_vtoy_env_str_=USER=juansev
+LC_TIME=pt_BR.UTF-8
+XDG_SESSION_TYPE=wayland
+SHLVL=0
+HOME=/home/juansev
+OLDPWD=/home/juansev
+DESKTOP_SESSION=zorin
+GNOME_SHELL_SESSION_MODE=zorin
+GTK_MODULES=gail:atk-bridge
+LC_MONETARY=pt_BR.UTF-8
+MANAGERPID=1554
+SYSTEMD_EXEC_PID=1622
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=014698e6bb296442d320084966ae2504
+DBUS_STARTER_BUS_TYPE=session
+GIO_LAUNCHED_DESKTOP_FILE_PID=7339
+WAYLAND_DISPLAY=wayland-0
+LOGNAME=juansev
+_=/usr/bin/gnome-session
+JOURNAL_STREAM=8:31451
+XDG_SESSION_CLASS=user
+USERNAME=juansev
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+SESSION_MANAGER=local/zorin-dev:@/tmp/.ICE-unix/1622,unix/zorin-dev:/tmp/.ICE-unix/1622
+INVOCATION_ID=7ff5dced5601462ab33cec5a38fcb588
+XDG_RUNTIME_DIR=/run/user/1000
+LC_ADDRESS=pt_BR.UTF-8
+XDG_MENU_PREFIX=gnome-
+GNOME_SETUP_DISPLAY=:1
+DISPLAY=:0
+LC_TELEPHONE=pt_BR.UTF-8
+LANG=en_US.UTF-8
+XDG_CURRENT_DESKTOP=zorin:GNOME
+XMODIFIERS=@im=ibus
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.B1JER2
+XDG_SESSION_DESKTOP=zorin
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_LAUNCHER=gnome-keyring
+SHELL=/bin/zsh
+LC_NAME=pt_BR.UTF-8
+INSIDE_NAUTILUS_PYTHON=
+QT_ACCESSIBILITY=1
+GDMSESSION=zorin
+LC_MEASUREMENT=pt_BR.UTF-8
+LC_IDENTIFICATION=pt_BR.UTF-8
+QT_IM_MODULE=ibus
+PWD=/home/juansev/Downloads/ventoy-1.0.99
+XDG_DATA_DIRS=/home/juansev/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=014698e6bb296442d320084966ae2504
+LC_NUMERIC=pt_BR.UTF-8
+LC_PAPER=pt_BR.UTF-8
+>
+[2024/07/03 10:04:34] argv[2]=<_vtoy_gui_path_=/home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/07/03 10:04:34] =========RAW ARGS END===========
+[2024/07/03 10:04:34] recover environ 51 51
+[2024/07/03 10:04:34] recover success, argc=1 evecve </home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/07/03 10:04:34] =========EXECVE ARGS BEGIN===========
+[2024/07/03 10:04:34] argv[0]=</home/juansev/Downloads/ventoy-1.0.99/tool/x86_64/Ventoy2Disk.gtk3>
+[2024/07/03 10:04:34] =========EXECVE ARGS END===========
+[2024/07/03 10:04:34] ================================================
+[2024/07/03 10:04:34] ===== Ventoy2Disk 1.0.99 powered by GTK3.x =====
+[2024/07/03 10:04:34] ================================================
+[2024/07/03 10:04:34] log file is <log.txt> lastsize:45882
+[2024/07/03 10:04:34] ini file is <./Ventoy2Disk.ini>
+[2024/07/03 10:04:34] ventoy_disk_enumerate_all
+[2024/07/03 10:04:34] get disk info nvme0n1
+[2024/07/03 10:04:34] is 4k native disk <nvme0n1> <0>
+[2024/07/03 10:04:34] get disk size from sysfs for nvme0n1
+[2024/07/03 10:04:34] /sys/block/nvme0n1/device/vendor not exist 
+[2024/07/03 10:04:34] ventoy_get_vtoy_data /dev/nvme0n1
+[2024/07/03 10:04:34] Invalid efi part2 name <>
+[2024/07/03 10:04:34] disk:</dev/nvme0n1 259:0> model:< SSSTC CL1-4D256 (nvme)> size:256060514304 (256 GB)
+[2024/07/03 10:04:34] /dev/nvme0n1 NO Ventoy detected
+[2024/07/03 10:04:34] get disk info sda
+[2024/07/03 10:04:34] is 4k native disk <sda> <0>
+[2024/07/03 10:04:34] get disk size from sysfs for sda
+[2024/07/03 10:04:34] ventoy_get_vtoy_data /dev/sda
+[2024/07/03 10:04:34] Not valid ventoy partition layout [2048 15238496] [0 0]
+[2024/07/03 10:04:34] disk:</dev/sda 8:0> model:<Kingston DataTraveler 108 (USB)> size:7803174912 (8 GB)
+[2024/07/03 10:04:34] /dev/sda NO Ventoy detected
+[2024/07/03 10:04:34] ============= DISK DUMP ============
+[2024/07/03 10:04:34] /dev/sda [8 GB] Kingston DataTraveler 108 (USB)	Ventoy: NA
+[2024/07/03 10:04:34] /dev/nvme0n1 [256 GB]  SSSTC CL1-4D256 (nvme)	Ventoy: NA
+[2024/07/03 10:04:34] on_init_window ...
+[2024/07/03 10:04:34] load_languages ...
+[2024/07/03 10:04:34] current language <English (English)>
+[2024/07/03 10:04:34] fill_dev_list total disk: 2 showall:0
+[2024/07/03 10:04:34] combox count:1, active:sda id:0
+[2024/07/03 10:04:41] install_thread ...
+[2024/07/03 10:04:41] ==================================================================================
+[2024/07/03 10:04:41] ===== ventoy install /dev/sda style:MBR secureboot:1 align4K:1 reserve:0 =========
+[2024/07/03 10:04:41] ==================================================================================
+[2024/07/03 10:04:41] /dev/sda mounted </dev/sda1 /media/juansev/ZORIN\040OS\04017 vfat rw,nosuid,nodev,relatime,uid=1000,gid=1000,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,showexec,utf8,flush,errors=remount-ro 0 0
+>
+[2024/07/03 10:04:41] disk is mounted, now try to unmount it ...
+[2024/07/03 10:04:41] umount </dev/sda> </media/juansev/ZORIN OS 17> [ success ]
+[2024/07/03 10:04:41] disk is not mounted now, we can do the install ...
+[2024/07/03 10:04:41] start install thread Kingston DataTraveler 108 (USB) ...
+[2024/07/03 10:04:41] func handler install <{ "result" : "success" }>
+[2024/07/03 10:04:41] set percent 1
+[2024/07/03 10:04:41] ventoy_install_thread run ...
+[2024/07/03 10:04:41] check disk sda
+[2024/07/03 10:04:41] disk is not mounted now, we can do continue ...
+[2024/07/03 10:04:41] ventoy_clean_disk fd:7 size:7803174912
+[2024/07/03 10:04:41] write disk at off:0 writelen:65536 datalen:65536
+[2024/07/03 10:04:41] write disk at off:7803109376 writelen:65536 datalen:65536
+[2024/07/03 10:04:41] set percent 4
+[2024/07/03 10:04:41] set percent 4
+[2024/07/03 10:04:41] set percent 4
+[2024/07/03 10:04:41] set percent 4
+[2024/07/03 10:04:41] set percent 4
+[2024/07/03 10:04:41] set percent 4
+[2024/07/03 10:04:41] set percent 4
+[2024/07/03 10:04:41] set percent 4
+[2024/07/03 10:04:41] set percent 4
+[2024/07/03 10:04:41] read core.img.xz rc:0 len:455192
+[2024/07/03 10:04:41] ventoy_unxz_stg1_img len:455192 rc:0
+[2024/07/03 10:04:41] set percent 8
+[2024/07/03 10:04:41] read disk.img.xz rc:0 len:13475864
+[2024/07/03 10:04:41] set percent 11
+[2024/07/03 10:04:41] set percent 16
+[2024/07/03 10:04:41] set percent 19
+[2024/07/03 10:04:41] set percent 24
+[2024/07/03 10:04:41] set percent 30
+[2024/07/03 10:04:41] set percent 35
+[2024/07/03 10:04:41] set percent 41
+[2024/07/03 10:04:42] set percent 46
+[2024/07/03 10:04:42] set percent 51
+[2024/07/03 10:04:42] ventoy_unxz_efipart_img len:13475864 rc:0 unxzlen:33554432
+[2024/07/03 10:04:42] Fill MBR part table
+[2024/07/03 10:04:42] Disk signature: 0xc752cf88
+[2024/07/03 10:04:42] no need to align with 4KB
+[2024/07/03 10:04:42] ReservedSector: 0
+[2024/07/03 10:04:42] Part1StartSector:2048 Part1SectorCount:15172992 Part2StartSector:15175040
+[2024/07/03 10:04:42] Formatting part1 exFAT /dev/sda ...
+[0124/07/03 10:04:42] Creating... 
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] set percent 61
+[0124/07/03 10:04:42] Flushing... 
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] set percent 61
+[2024/07/03 10:04:42] Formatting part2 EFI ...
+[2024/07/03 10:04:42] Formatting part2 EFI offset:7769620480 ...
+[2024/07/03 10:04:42] VentoyProcSecureBoot 1 ...
+[2024/07/03 10:04:42] Secure boot is enabled ...
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] write disk writelen:1048576 datalen:1048576 [ success ]
+[2024/07/03 10:04:42] Writing legacy grub ...
+[2024/07/03 10:04:42] Write MBR stage1 ...
+[2024/07/03 10:04:42] lseek offset:512(512) writelen:1048064(1048064)
+[2024/07/03 10:04:42] fsync data1...
+[2024/07/03 10:04:42] set percent 80
+[2024/07/03 10:04:42] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:43] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:44] set percent 80
+[2024/07/03 10:04:45] Checking part2 efi data /dev/sda ...
+[2024/07/03 10:04:45] set percent 82
+[2024/07/03 10:04:45] set percent 82
+[2024/07/03 10:04:45] set percent 82
+[2024/07/03 10:04:45] set percent 82
+[2024/07/03 10:04:45] set percent 82
+[2024/07/03 10:04:45] set percent 82
+[2024/07/03 10:04:45] set percent 82
+[2024/07/03 10:04:45] set percent 83
+[2024/07/03 10:04:45] set percent 83
+[2024/07/03 10:04:45] set percent 83
+[2024/07/03 10:04:45] set percent 83
+[2024/07/03 10:04:45] set percent 85
+[2024/07/03 10:04:45] set percent 85
+[2024/07/03 10:04:45] set percent 85
+[2024/07/03 10:04:45] set percent 85
+[2024/07/03 10:04:45] set percent 85
+[2024/07/03 10:04:45] set percent 87
+[2024/07/03 10:04:45] set percent 87
+[2024/07/03 10:04:45] set percent 87
+[2024/07/03 10:04:45] set percent 87
+[2024/07/03 10:04:46] set percent 88
+[2024/07/03 10:04:46] set percent 88
+[2024/07/03 10:04:46] set percent 88
+[2024/07/03 10:04:46] set percent 88
+[2024/07/03 10:04:46] set percent 90
+[2024/07/03 10:04:46] set percent 90
+[2024/07/03 10:04:46] set percent 90
+[2024/07/03 10:04:46] set percent 90
+[2024/07/03 10:04:46] set percent 91
+[2024/07/03 10:04:46] set percent 91
+[2024/07/03 10:04:46] set percent 91
+[2024/07/03 10:04:46] set percent 91
+[2024/07/03 10:04:46] set percent 93
+[2024/07/03 10:04:46] set percent 93
+[2024/07/03 10:04:46] efi part data check success
+[2024/07/03 10:04:46] Writting Partition Table style:0...
+[2024/07/03 10:04:46] Writting MBR Partition Table 0 512
+[2024/07/03 10:04:46] fsync data2...
+[2024/07/03 10:04:46] set percent 98
+[2024/07/03 10:04:46] ====================================
+[2024/07/03 10:04:46] ====== ventoy install success ======
+[2024/07/03 10:04:46] ====================================
+[2024/07/03 10:04:46] set percent 100
+[2024/07/03 10:04:46] ventoy_disk_enumerate_all
+[2024/07/03 10:04:46] get disk info nvme0n1
+[2024/07/03 10:04:46] is 4k native disk <nvme0n1> <0>
+[2024/07/03 10:04:46] get disk size from sysfs for nvme0n1
+[2024/07/03 10:04:46] /sys/block/nvme0n1/device/vendor not exist 
+[2024/07/03 10:04:46] ventoy_get_vtoy_data /dev/nvme0n1
+[2024/07/03 10:04:46] Invalid efi part2 name <>
+[2024/07/03 10:04:46] disk:</dev/nvme0n1 259:0> model:< SSSTC CL1-4D256 (nvme)> size:256060514304 (256 GB)
+[2024/07/03 10:04:46] /dev/nvme0n1 NO Ventoy detected
+[2024/07/03 10:04:46] get disk info sda
+[2024/07/03 10:04:46] is 4k native disk <sda> <0>
+[2024/07/03 10:04:46] get disk size from sysfs for sda
+[2024/07/03 10:04:46] ventoy_get_vtoy_data /dev/sda
+[2024/07/03 10:04:46] ventoy partition layout check OK: [2048 15172992] [15175040 65536]
+[2024/07/03 10:04:46] now check secure boot for /dev/sda ...
+[2024/07/03 10:04:46] /EFI/BOOT/grubx64_real.efi find, secure boot in enabled
+[2024/07/03 10:04:46] disk:</dev/sda 8:0> model:<Kingston DataTraveler 108 (USB)> size:7803174912 (8 GB)
+[2024/07/03 10:04:46] /dev/sda Ventoy:<1.0.99> MBR secureboot:1 preserve:0
+[2024/07/03 10:04:48] set percent 0
+[2024/07/03 10:04:48] fill_dev_list total disk: 2 showall:0
+[2024/07/03 10:04:48] combox count:1, active:sda id:0
+[2024/07/03 10:04:50] on_exit_window ...
+[2024/07/03 10:04:50] ######## Ventoy2Disk GTK 1.0.99 exit ########
