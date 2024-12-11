@@ -186,4 +186,3 @@ flatpak install flathub com.mattjakeman.ExtensionManager
 
 # Postman
 flatpak install flathub com.getpostman.Postman
-
