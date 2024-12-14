@@ -1,7 +1,11 @@
+echo "Updating repos"
 sudo apt update -y
+echo "Upgrading repos"
 sudo apt upgrade -y
+echo "Instaling, if dont exists, curl"
 sudo apt-get install ca-certificates curl -y
 # ZSH configuration
+echo "Starting ZSH config"
 sudo apt install zsh -y
 chsh -s /bin/zsh
 zsh
@@ -129,6 +133,7 @@ source \$ZSH/oh-my-zsh.sh
 EOF
 
 # Configurando NPM e Node.js
+echo "Starting NPM and Node.js config"
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | zsh
 
@@ -139,6 +144,8 @@ nvm install latest
 node -v
 
 # Instalando e COnfigurando Docker
+echo "Installing docker"
+
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
@@ -151,6 +158,7 @@ sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
+echo "Installing VSCode"
 # Configurando VSCode
 flatpak install flathub com.visualstudio.code
 
@@ -170,13 +178,13 @@ flatpak install flathub com.spotify.Client
 flatpak install flathub org.qbittorrent.qBittorrent
 
 # PCSX2
-flatpak install flathub net.pcsx2.PCSX2
+# flatpak install flathub net.pcsx2.PCSX2
 
-# Lutris
-flatpak install flathub net.lutris.Lutris
+# Heroic Games Launcher
+flatpak install flathub com.heroicgameslauncher.hgl
 
 # Android Studio
-flatpak install flathub com.google.AndroidStudio
+# flatpak install flathub com.google.AndroidStudio
 
 # Extensions
 flatpak install flathub org.gnome.Extensions
